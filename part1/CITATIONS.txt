@@ -1,0 +1,186 @@
+This project has been develeped using the following softwares:
+
+[1] Alieh_Hunter 
+AVAILABILITY: The software is available under a GPL license as a standalone application at http://www.sanger.ac.uk/Software/analysis/alien_hunter 
+ftp://ftp.sanger.ac.uk/pub/resources/software/alien_hunter/alien_hunter.tar.gz
+CONTACT: gsv@sanger.ac.uk 
+SUPPLEMENTARY INFORMATION: Supplementary data are available at Bioinformatics online. 
+REFERENCES: 
+    Vernikos & Parkhill, 2006, doi:10.1093/bioinformatics/btl369)
+LICENSE: GPL
+
+[2] big-PI Fungal Predictor GPI Modification Site Prediction in Fungi 
+AVAILABILITY: http://mendel.imp.ac.at/gpi/fungi_server.html
+REFERENCES: 
+    Eisenhaber, B.; Bork, P.; Eisenhaber, F. Prediction of potential GPI-modification sites in protein sequences. J Mol Biol. v 24, p 741-58, 1999. 
+    Rutherford, K.; Parkhill, J.; Crook, J.; Horsnell, T.; Rice, P.; Rajandream, M.A.; Barrell, B. Artemis: sequence visualization and annotation. Bioinformatics. v 16, p 944-945, 2000.
+
+[3] BLAST+
+AVAILABILITY: ftp://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/LATEST/ncbi-blast-2.6.0+-x64-linux.tar.gz
+REFERENCES:
+    Camacho C., Coulouris G., Avagyan V., Ma N., Papadopoulos J., Bealer K., & Madden T.L. (2008) "BLAST+: architecture and applications." BMC Bioinformatics 10:421. PubMed 
+LICENSE: GNU LGPL
+
+[4] DGPI
+AVAILABILITY: https://github.com/Eduardo-Alves/DGPI
+AUTHORS: Didier Buloz (buloz5@cuimail.unige.ch) Julien Kronegg (jkronegg@bigfoot.com) Project DGPI (dgpi@bigfoot.com)
+REFERENCES:
+    Julien Kronegg, Didier Buloz, (1999), "Detection/prediction of GPI cleavage site (GPI-anchor) in a protein (DGPI)", Retrieved 20070709 from http://129.194.185.165/dgpi/
+LICENSE: MIT License 
+
+[5] Glimmer3
+AVAILABILITY: https://ccb.jhu.edu/software/glimmer/
+REFERENCES: 
+    Delcher et al., 2007, doi: 10.1093/bioinformatics/btm009
+
+[6] GlimmerHMM
+AVAILABILITY: https://ccb.jhu.edu/software/glimmerhmm/
+REFERENCES:
+    Majoros, W.H.; Pertea, M., Salzberg, S.L.TigrScan and GlimmerHMM: two open source ab initio eukaryotic gene-finders. Bioinformatics. v 20, p 2878-2879, 2004.
+    Rutherford, K.; Parkhill, J.; Crook, J.; Horsnell, T.; Rice, P.; Rajandream, M.A.; Barrell, B. Artemis: sequence visualization and annotation. Bioinformatics. v 16, p 944-945, 2000.
+
+[7] GlimmerM
+AVAILABILITY: http://www.cbcb.umd.edu/software/glimmerm/
+REFERENCES:
+    Salzberg, S. L.; Pertea, M.; Delcher, A.L.; Gardner,M.J. Tettelin, H. Interpolated Markov models for eukaryotic gene finding. Genomics. v 59, p 24-31. 1999.
+    Rutherford, K.; Parkhill, J.; Crook, J.; Horsnell, T.; Rice, P.; Rajandream, M.A.; Barrell, B. Artemis: sequence visualization and annotation. Bioinformatics. v 16, p 944-945, 2000.
+
+[8] HMMER
+AVAILABILITY: http://hmmer.org/
+DEVELOPED BY: Sean Eddy (Eddy, 1998)
+
+[9] Infernal
+Infernal need the database Rfam
+AVAILABILITY: http://eddylab.org/infernal/
+DEPENDENCES:
+    ftp://ftp.sanger.ac.uk/pub/databases/Rfam/11.0/database_files/rfam.txt.gz
+    ftp://ftp.sanger.ac.uk/pub/databases/Rfam/CURRENT/misc/Rfam2INSDC.types
+REFERENCES: 
+    Nawrocki et al., 2009, doi: 10.1093/bioinformatics/btp157
+    Gardner et al., 2009, doi: 10.1093/nar/gkn766
+LICENSE:
+Infernal - inference of RNA secondary structural alignments
+@INFERNAL_COPYRIGHT@
+Copyright (C) 1991-2016      Sean R. Eddy
+Copyright (C) 2005-2016      Eric P. Nawrocki
+Copyright (C) 2005-2011      Diana L. Kolbe
+Copyright (C) 2004           Zasha Weinberg
+Copyright (C) 1990           Don G.Gilbert
+Copyright (C) 2000-2016      Howard Hughes Medical Institute
+Copyright (C) 1995-2006      Washington University School of Medicine
+Copyright (C) 1992-1995      MRC Laboratory of Molecular Biology
+Copyright (C) 2004           University of Washington, Seattle
+Copyright (C) 1986,1993,1995 University of Toronto
+Copyright (C) 1989-2001      Free Software Foundation
+Copyright (C) 1991           Massachussetts Institute of Technology
+All rights reserved.
+
+   THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+   "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+   LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS
+   FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE
+   COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT,
+   INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+   (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+   SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+   HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT,
+   STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
+   ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED
+   OF THE POSSIBILITY OF SUCH DAMAGE.
+
+
+[10] InterProScan
+AVAILABILITY: https://www.ebi.ac.uk/interpro/download.html
+DEPENDENCES: https://www.dropbox.com/referrer_cleansing_redirect?hmac=2l5khZ80pKD3kosSSZPSlUgk7zvon%2F26Z5MuoiJoCrw%3D&url=http%3A%2F%2Fgeneontology.org%2Fontology%2Fobo_format_1_2%2Fgene_ontology_ext.obo
+REFERENCES: E. M. Zdobnov and R. Apweiler (2001) Bioinformatics, 17, 847–848
+
+[11] mreps
+AVAILABILITY: http://mreps.univ-mlv.fr/howto.html
+REFERENCES:  
+    R. Kolpakov, G. Bana, and G. Kucherov, mreps: efficient and flexible detection of tandem repeats in DNA, Nucleic Acid Research, 31 (13), July 1 2003, pp 3672-3678.
+
+[12] Phobius
+AVAILABILITY: http://phobius.sbc.su.se/data.html
+AUTHOR: (c) 2004 Lukas Kall, Anders Krogh, Erik Sonnhammer.
+REFERENCES:
+    Lukas Käll, Anders Krogh and Erik L. L. Sonnhammer. A Combined Transmembrane Topology and Signal Peptide Prediction Method. Journal of Molecular Biology, 338(5):1027-1036, May 2004.
+
+[13] PredGPI
+AVAILABILITY: http://gpcr.biocomp.unibo.it/predgpi/index.htm
+REFERENCES:
+    Pierleoni A, Martelli PL, Casadio R -PredGPI: a GPI anchor predictor- BMC Bioinformatics- 9:392 (2008)
+
+[14] RBS-Finder
+REFERENCES: 
+    Suzek et al., 2001, doi: 10.1093/bioinformatics/17.12.1123
+
+[15] RNAmmer
+AVAILABILITY: http://www.cbs.dtu.dk/services/RNAmmer/
+REFERENCES: 
+    Lagesen et al., 2007, doi: 10.1093/nar/gkm160
+
+[16] SignalP
+AVAILABILITY: http://www.cbs.dtu.dk/services/SignalP-3.0/
+REFERENCES:
+    Improved prediction of signal peptides: SignalP 3.0. Jannick Dyrløv Bendtsen, Henrik Nielsen, Gunnar von Heijne and Søren Brunak. J. Mol. Biol., 340:783-795, 2004. 
+    Identification of prokaryotic and eukaryotic signal peptides and prediction of their cleavage sites. Henrik Nielsen, Jacob Engelbrecht, Søren Brunak and Gunnar von Heijne. Protein Engineering, 10:1-6, 1997. 
+
+[17] Snap
+AVAILABILITY: http://snap.cs.berkeley.edu/
+REFERENCES: 
+    Faster and More Accurate Sequence Alignment with SNAP. Matei Zaharia, William J. Bolosky, Kristal Curtis, Armando Fox, David Patterson, Scott Shenker, Ion Stoica, Richard M. Karp, and Taylor Sittler. arXiv:1111.5572v1, November 2011. 
+    
+
+[18] STRING
+AVAILABILITY: NOT AVAILABLE - file:///usr/local/genome/string/string.c - smilodon
+REFERENCES:
+    V. Parisi, V. De Fonzo, F. Aluffi-Pentini. STRING: finding tandem repeats in DNA sequences. Bioinformatics, Vol. 19 no. 14, 2003, Pages 1733-1738.
+
+[19] Transporter Classification Database(TCDB)
+DEPENDENCES: 
+    Database: http://www.tcdb.org/seqfile/tcdb
+    TCDB_file: http://www.tcdb.org/browse.php
+REFERENCES:
+    Saier et al., 2006, doi:10.1093/nar/gkj001
+
+[20] TMHMM 
+AVAILABILITY: http://www.cbs.dtu.dk/services/TMHMM/
+REFERENCES:
+    The TMHMM package is obtained from
+    Anders Krogh, krogh@cbs.dtu.dk
+
+    ******   PLEASE DO NOT REDISTRIBUTE THE PACKAGE   ******
+
+
+    This software is provided ``AS IS'' and any express or implied
+    warranties, including, but not limited to, the implied warranties of
+    merchantability and fitness for a particular purpose, are disclaimed.
+    In no event shall the author be liable for any direct, indirect,
+    incidental, special, exemplary, or consequential damages (including,
+    but not limited to, procurement of substitute goods or services; loss
+    of use, data, or profits; or business interruption) however caused and
+    on any theory of liability, whether in contract, strict liability, or
+    tort (including negligence or otherwise) arising in any way out of the
+    use of this software, even if advised of the possibility of such
+    damage.
+
+[21] TransTermHP
+AVAILABILITY: http://transterm.cbcb.umd.edu/
+REFERENCES: 
+    C. Kingsford, K. Ayanbule and S.L. Salzberg. Rapid, accurate, computational discovery of Rho-independent transcription terminators illuminates their relationship to DNA uptake. Genome Biology 8:R22 (2007). 
+
+[22] Tandem Repeats Finder (TRF)
+AVAILABILITY: https://tandem.bu.edu/trf/trf.html
+REFERENCES: 
+    G. Benson, "Tandem repeats finder: a program to analyze DNA sequences" Nucleic Acids Research (1999) Vol. 27, No. 2, pp. 573-580.
+LICENSE: 
+    The author of this software grants to any individual or organization the right to use and to make an unlimited number of copies of this software. You may not de-compile, disassemble, reverse engineer, or modify the software. This software cannot be sold, incorporated into commercial software or redistributed. The author of this software accepts no responsibility for damages resulting from the use of this software and makes no warranty or representation, either express or implied, including but not limited to, any implied warranty of merchantability or fitness for a particular purpose. This software is provided as is, and the user assumes all risks when using it. 
+
+[23] tRNAScan-SE
+AVAILABILITY: http://eddylab.org/software.html
+REFERENCES:
+    Fichant, G.A. and Burks, C. (1991) "Identifying potential tRNA
+genes in genomic DNA sequences", J. Mol. Biol., 220, 659-671.
+
+    Eddy, S.R. and Durbin, R. (1994) "RNA sequence analysis using
+covariance models", Nucl. Acids Res., 22, 2079-2088.
