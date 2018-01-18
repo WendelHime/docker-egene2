@@ -1,7 +1,7 @@
 # docker-egene2
 Docker-EGene2 repository
 
-# Running
+# wendelhime/egene2:part4
 ```zsh
 docker run -d --name egene2 \                                                                                                                                                                                                                                    
 -v /home/wendelhlc/minibacteria:/root \
@@ -22,3 +22,16 @@ docker exec -i -t egene2 /bin/bash
 compileTRNAScan.sh
 initpostgres.sh
 ```
+
+# wendelhime/egene2:coed
+```zsh
+docker run -it --rm \
+            -v /tmp/.X11-unix:/tmp/.X11-unix \
+            -v $HOME/.Xauthority:/home/developer/.Xauthority \
+            -e DISPLAY=$DISPLAY \
+            -e XAUTHORITY=/home/developer/.Xauthority \
+            -e uid=$(id -u) \
+            -e gid=$(id -g) \
+            --net=host \
+            wendelhime/egene2:coed
+```            
