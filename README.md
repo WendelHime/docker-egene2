@@ -1,10 +1,18 @@
 # docker-egene2
 Docker-EGene2 repository
 
-# wendelhime/egene2:part4
+# Running
+
+You'll need to share some directories from your host machine and the container when execute using parameter `-v`<br />
+Including the directory with the sequence and configuration files which will be used, in images `wendelhime/egene2:latest` and `wendelhime/egene2:bigou` you need to use `/root`, in `wendelhime/egene2:coed` you need to use `/home/developer`
+
+## wendelhime/egene2:latest
+
+Start container sharing the directory to be used by container, databases files, some components which we aren't allowed to share and the connection with your PostgreSQL 
+
 ```zsh
-docker run -d --name egene2 \                                                                                                                                                                                                                           [919853f]
-    -v /home/wendelhlc/minibacteria:/root \
+docker run -d --name egene2 \
+    -v $HOME/minibacteria:/root \
     -v /usr/local/genome/databases:/usr/local/genome/databases \
     -v /usr/local/genome/rnammer:/usr/local/genome/rnammer \
     -v /usr/local/genome/signalp-4.0:/usr/local/genome/signalp-4.0 \
@@ -13,15 +21,20 @@ docker run -d --name egene2 \                                                   
     -v /usr/local/genome/trf:/usr/local/genome/trf \
     -v /var/run/postgresql/.s.PGSQL.5432:/var/run/postgresql/.s.PGSQL.5432 \
     --net=host \
-    wendelhime/egene2:part4 
-
-docker exec -i -t egene2 /bin/bash
-
-compileTRNAScan.sh
-initpostgres.sh
+    wendelhime/egene2:latest
 ```
-# wendelhime/egene2:bigou
-docker run --rm -it \                                                                                                                                                                                                                                   [919853f]
+
+Execute the following command to enter in container:
+
+```zsh
+docker exec -i -t egene2 /bin/bash
+```
+## wendelhime/egene2:bigou
+
+You can execute bigou direct in command line using, remember to share your directories with the container always using `/root`:
+
+```zsh
+docker run --rm -it \
     -v $HOME/minibacteria2:/root \
     -v /usr/local/genome/databases:/usr/local/genome/databases \
     -v /usr/local/genome/rnammer:/usr/local/genome/rnammer \
@@ -32,12 +45,15 @@ docker run --rm -it \                                                           
     -v /var/run/postgresql/.s.PGSQL.5432:/var/run/postgresql/.s.PGSQL.5432 \
     --net=host \
     wendelhime/egene2:bigou -c evidence.cnf -d minibct_db -u chadouser -p egene_chado -h localhost -o output_dir
+```
 
+## wendelhime/egene2:coed
 
-# wendelhime/egene2:coed
+You can execute coed interface, there is a little difference, the directory used in this container is `/home/developer`, so share the directory:
+
 ```zsh
 docker run -it --rm \
-    -v /home/wendelhlc/minibacteria:/root \
+    -v $HOME/minibacteria:/home/developer \
     -v /usr/local/genome/databases:/usr/local/genome/databases \
     -v /usr/local/genome/rnammer:/usr/local/genome/rnammer \
     -v /usr/local/genome/signalp-4.0:/usr/local/genome/signalp-4.0 \
