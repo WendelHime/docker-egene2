@@ -1,4 +1,4 @@
-FROM wendelhime/egene2:part2
+FROM wendelhime/egene2:part2squashed
 
 ADD bin/infernal-1.1.1          /usr/local/genome/infernal-1.1.1
 RUN ln -s   /usr/local/genome/infernal-1.1.1/src/bandcyk-montecarlo-test    /usr/local/genome/bin/bandcyk-montecarlo-test

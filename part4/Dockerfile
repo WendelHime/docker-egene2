@@ -1,4 +1,4 @@
-FROM wendelhime/egene2:part3
+FROM wendelhime/egene2:part3squashed
 
 RUN apt-get update && \
         apt-get install -y gawk \
