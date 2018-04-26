@@ -49,6 +49,11 @@ docker run --rm -it \
 
 ## wendelhime/egene2:coed
 
+Use this commmand to share X11:
+```zsh
+xhost +
+```
+
 You can execute coed interface, there is a little difference, the directory used in this container is `/home/developer`, so share the directory:
 
 ```zsh
